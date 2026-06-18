@@ -1,7 +1,7 @@
 """
 第 01 课：Prompt Chain（提示词链）
 学习目标：用 LCEL 串联多个提示词，完成「提取 → 转换」两步任务。
-运行：python lessons/01_prompt_chain.py
+运行：python lessons/01_prompt_chain.py test
 """
 
 import sys
