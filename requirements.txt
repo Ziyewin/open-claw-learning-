@@ -1,0 +1,23 @@
+
+
+# LangChain 全家桶（沿用你当前稳定版本）
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-core==0.3.86
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+
+# LangGraph
+langgraph==0.6.11
+langgraph-checkpoint==2.1.2
+langgraph-prebuilt==0.6.5
+langgraph-sdk==0.2.9
+
+# 链路追踪
+langsmith==0.4.37
+
+# 环境变量必备
+python-dotenv
+
+# CrewAI 稳定推荐版（适配 Python3.10 + 上述 LangChain）
+crewai==1.13.0

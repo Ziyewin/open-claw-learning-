@@ -1,0 +1,23 @@
+DeepSeek API 采用按量计费的定价模式，价格极具竞争力，是目前市场上性价比最高的 AI API 之一。
+
+**DeepSeek-V3 (deepseek-chat) 定价**
+- 输入（Input）：每百万 tokens ¥2.00（2元人民币）
+- 输出（Output）：每百万 tokens ¥8.00（8元人民币）
+- 缓存命中：每百万 tokens ¥0.50（缓存 token 价格更低）
+
+**DeepSeek-R1 (deepseek-reasoner) 定价**
+- 输入（Input）：每百万 tokens ¥4.00（4元人民币）
+- 输出（Output）：每百万 tokens ¥16.00（16元人民币）
+
+**对比优势**
+与 OpenAI GPT-4o（输入 $2.50/百万tokens，输出 $10/百万tokens）相比，DeepSeek 的价格优势非常明显。按照当前汇率计算，DeepSeek-V3 的输出价格仅为 GPT-4o 的约 1/10。
+
+**计费说明**
+- API 调用按照 token 数量计费，中文字符约占 1-2 个 token。
+- 输入 token 包括 prompt 中的所有文本，输出 token 包括模型生成的全部内容。
+- 未完成请求（如网络中断导致响应不完整）按实际生成 token 计费。
+- 账户余额不足时将停止服务，建议提前充值。
+
+**免费额度**
+新注册用户可获得 ¥10 的免费体验额度，有效期 30 天。免费额度可用于调用所有 API 模型。
+*** End of File
